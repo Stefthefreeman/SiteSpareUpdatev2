@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center_vertical"
+        android:scrollIndicators="none"
+        android:showDividers="middle"
+        android:orientation="vertical"
+        android:backgroundTintMode="src_over"
+        android:padding="22dp"
+        android:nestedScrollingEnabled="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/image_border"
+            android:padding="5dp">
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="SN CARTE OK"
+            android:id="@+id/textViewpartsok"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:fontFamily="Verdana"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/image_border"
+                android:backgroundTint="@color/accent_material_light" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/scansnoktext"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:hint="Scan result SN OK"
+                android:textStyle="italic"
+                android:padding="2dp"
+                android:textColor="#505050"
+                android:background="#dedede"
+                android:textColorHint="#505050"
+                android:textIsSelectable="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="SCAN SN OK"
+                android:id="@+id/scansnok"
+                android:layout_gravity="center_horizontal"
+                android:singleLine="false"
+                android:padding="3dp"
+                android:layout_marginTop="10dp"
+
+                android:textColor="#ffffff"
+                android:textSize="22dp"
+                android:background="@color/colorAccent"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/image_border"
+            android:padding="5dp">
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="PN CARTE HS"
+            android:id="@+id/textViewpnhs"
+            android:layout_below="@+id/partsok"
+            android:layout_alignParentStart="true"
+                android:textStyle="bold"
+            android:textSize="20dp"
+                android:textIsSelectable="false"
+            android:typeface="serif"
+            android:textAlignment="gravity"
+            android:textColor="#ffffff"
+            android:singleLine="true"
+            android:fontFamily="Verdana"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/image_border"
+                android:gravity="center_horizontal"
+                android:backgroundTint="@color/accent_material_light" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/pnhs"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:hint="Scan result PNHS"
+                android:textStyle="italic"
+                android:textIsSelectable="false"
+                android:padding="2dp"
+                android:textColor="#505050"
+                android:textColorHint="#505050"
+                android:background="#dedede"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="SCAN PN HS"
+                android:id="@+id/buttonscanpnhs"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:textSize="22dp"
+                android:textColor="#ffffff"
+
+                android:background="@color/darkpurple"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/image_border"
+            android:padding="5dp">
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="SN CARTE HS"
+            android:id="@+id/textViewsnhs"
+            android:layout_below="@+id/pncartehs"
+            android:layout_alignParentStart="false"
+                android:textStyle="bold"
+            android:textSize="20dp"
+                android:textIsSelectable="false"
+            android:typeface="serif"
+            android:textAlignment="gravity"
+            android:textColor="#ffffff"
+            android:singleLine="true"
+            android:fontFamily="Verdana"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentBottom="false"
+            android:layout_alignWithParentIfMissing="false"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/image_border"
+                android:gravity="center_horizontal"
+                android:backgroundTint="@color/accent_material_light" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/scanresultsnhs"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:textStyle="italic"
+                android:hint="Scan result SNHS"
+                android:padding="2dp"
+                android:autoText="true"
+                android:textColor="#505050"
+                android:textColorHint="#505050"
+                android:background="#dedede"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:text="SCAN SN HS"
+                android:id="@+id/buttonscansnhs"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@color/darkgreen"
+                android:textColor="#ffffff"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="MISE  A JOUR"
+        android:id="@+id/buttonMAJ"
+        android:layout_below="@+id/sncartehs"
+        android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:textColor="#FFFFFF"
+        android:textSize="30dp"
+            android:background="@drawable/blueshape"
+        android:backgroundTintMode="src_over"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    </ScrollView>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".FirstConnection"
+    android:background="@drawable/appbackground">
+
+    <EditText
+        android:id="@+id/etxt_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:inputType="text"
+        android:hint="Prenom"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#ffffff" />
+    <EditText
+        android:id="@+id/etxt_prenom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Nom"
+        android:inputType="text"
+        android:layout_below="@+id/etxt_text"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/etxt_userrt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:hint="Nom utilisateur RT "
+        android:layout_below="@+id/etxt_prenom"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/etxt_pswdrt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:hint="Mot de passe RT"
+        android:layout_below="@+id/etxt_userrt"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+
+        android:layout_marginTop="30dp"
+        android:text="Sauvegarder"
+        android:layout_below="@+id/etxt_pswdrt"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@drawable/shape"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_second_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etxt_text"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@+id/button_save"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txt_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_second_activity"
+        android:layout_marginTop="10dp"
+         />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enregistrement Utilisateur"
+        android:id="@+id/textView5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+
+</RelativeLayout>

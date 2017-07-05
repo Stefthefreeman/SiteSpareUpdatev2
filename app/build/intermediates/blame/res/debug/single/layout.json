@@ -1,0 +1,362 @@
+[
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_histo.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\list_histo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\qrokbarhs.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\qrokbarhs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\b77e88d3454d6488c721d6ba13d5191510d33cca\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\geolocinput.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\geolocinput.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\webviewrt.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\webviewrt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\b77e88d3454d6488c721d6ba13d5191510d33cca\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_signup.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pointage.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\fragment_pointage.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\b77e88d3454d6488c721d6ba13d5191510d33cca\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\b77e88d3454d6488c721d6ba13d5191510d33cca\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_stream__aix.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\fragment_stream__aix.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_navigation_drawer.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\fragment_navigation_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_irem_sites.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\list_irem_sites.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_isreal.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\list_isreal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\showstreamrt.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\showstreamrt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\b77e88d3454d6488c721d6ba13d5191510d33cca\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inputdialogbarman.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\inputdialogbarman.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inputrtnumber.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\inputrtnumber.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_expanded.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\notification_expanded.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_list_item_3.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\simple_list_item_3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\httprequest.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\httprequest.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\choice.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\choice.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_parts.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\list_item_parts.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\qrcodesonly.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\qrcodesonly.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\searchsite.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\searchsite.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_controller_material_dialog_b.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\09970c2cde153da7ce9fa9f3384790ec7c683ffe\\output\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_tickets.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\list_tickets.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\parametres.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\parametres.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\b77e88d3454d6488c721d6ba13d5191510d33cca\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\b77e88d3454d6488c721d6ba13d5191510d33cca\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_chooser_dialog.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\09970c2cde153da7ce9fa9f3384790ec7c683ffe\\output\\res\\layout\\mr_media_route_chooser_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\firstconnec.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\firstconnec.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\b77e88d3454d6488c721d6ba13d5191510d33cca\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\qrhsbarok.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\qrhsbarok.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_drawer_item.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\nav_drawer_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\destock.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\destock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\b77e88d3454d6488c721d6ba13d5191510d33cca\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_toast.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\custom_toast.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\b77e88d3454d6488c721d6ba13d5191510d33cca\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\b77e88d3454d6488c721d6ba13d5191510d33cca\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\b77e88d3454d6488c721d6ba13d5191510d33cca\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_flm.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\layout\\list_flm.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\b77e88d3454d6488c721d6ba13d5191510d33cca\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    }
+]

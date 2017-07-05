@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Base.TextAppearance.AppCompat">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Renseigner les N° manuellement"
+        android:id="@+id/textViewtitle"
+        android:elegantTextHeight="true"
+        android:textStyle="bold|normal"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:gravity="center_horizontal"
+        android:singleLine="false" />
+
+    <EditText
+        android:id="@+id/edittextsnok"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="SN carte OK"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:capitalize="words"
+        android:clickable="false" />
+
+    <EditText
+        android:id="@+id/edittextpnhs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="PN carte HS"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:capitalize="characters"
+         />
+    <EditText
+        android:id="@+id/edittextsnhs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="SN carte HS"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:capitalize="characters"
+        />
+
+
+</LinearLayout>

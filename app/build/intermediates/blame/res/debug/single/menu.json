@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\option_menu_parts.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\menu\\option_menu_parts.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\option_menu.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\menu\\option_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\global.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\menu\\global.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_baronly.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\menu\\menu_baronly.xml"
+    }
+]

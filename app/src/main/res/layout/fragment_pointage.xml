@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.agence_creation_sc.tools.sitespareupdatev2.Pointage">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/showdate_p"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:background="@drawable/image_border"
+            android:textSize="18sp"
+            android:textColor="@color/abc_tint_edittext"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pointage journalier"
+            android:id="@+id/textView6"
+            android:gravity="center_horizontal"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Début"
+            android:id="@+id/buttondeb"
+            android:singleLine="false"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:background="@color/accent_material_light" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="FIN"
+            android:id="@+id/buttonfin"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:background="@color/colorAccent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/image_border"
+            android:src="@drawable/nt"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\nt.png",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\mipmap-hdpi\\nt.png"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\bgblue.png",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\mipmap-hdpi\\bgblue.png"
+    }
+]

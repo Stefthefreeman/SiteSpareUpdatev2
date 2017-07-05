@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:id="@+id/block">
+
+        <TextView
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:singleLine="false"
+            android:textStyle="italic"
+            android:textSize="14dp"
+            android:textIsSelectable="false"
+            android:padding="5dp"
+            android:hint="@string/info"
+            android:gravity="center_vertical|center_horizontal"
+            android:capitalize="characters"
+            android:autoText="false"
+            android:layout_alignParentEnd="false"
+            android:layout_marginTop="1dp"
+            android:layout_weight="0.90"
+            android:layout_marginRight="5dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="RESET"
+            android:id="@+id/reset"
+            android:background="@drawable/blueshape" />
+    </LinearLayout>
+
+
+    <ListView
+            android:id="@+id/listisreal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:transitionGroup="false"
+            android:layout_alignParentEnd="false"
+        android:layout_marginTop="55dp"
+        android:padding="5dp" />
+
+    </RelativeLayout>
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/theid"
+        android:layout_width="60dp"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#dedede"
+        android:layout_marginRight="1dp"
+        android:background="#e86507"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/theid"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceListItem"
+            android:textColor="#ffda36"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textIsSelectable="false"
+            android:focusable="false"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceListItem"
+            android:focusable="false"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:focusable="false"/>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:focusable="false"/>
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:focusable="false"/>
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:focusable="false"
+            android:visibility="invisible"
+            android:textIsSelectable="true" />
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/arrow_next" />
+
+</RelativeLayout>

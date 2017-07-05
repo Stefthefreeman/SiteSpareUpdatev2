@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/appbackground"
+        android:scrollIndicators="right"
+        android:transitionGroup="false"
+        android:padding="3dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="85dp"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/gridLayout">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="90dp"
+                android:id="@+id/hi"
+                android:background="@drawable/shape1"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp">
+
+                    <TextClock
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textClock"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textSize="27sp"
+                        android:textStyle="bold"
+                        android:singleLine="false"
+                        style="@style/CustomFontStyle"
+                        android:textIsSelectable="false"
+                        android:autoText="false"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/image_border"
+                        android:padding="3dp"
+                        android:backgroundTint="#000" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/datedujour"
+                        android:textStyle="bold"
+                        android:textColor="#dedede"
+                        android:textSize="16dp"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="2dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="right">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/sfr"
+                        android:id="@+id/buttonsfr"
+                        android:layout_row="0"
+                        android:layout_column="4"
+                        android:background="@drawable/shape_red"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="#ffffff" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/gwc"
+                        android:id="@+id/buttongwc"
+                        android:layout_row="0"
+                        android:layout_column="5"
+                        android:background="@drawable/shape_surname"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/welcome"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:background="@drawable/shape1"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:textStyle="normal"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/showstreamrt"
+                android:textStyle="italic"
+                android:textSize="1sp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#ffffff"
+                android:gravity="center_horizontal" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listView2"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#aeb0b6"
+            android:layout_above="@+id/gridLayout">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@mipmap/nt"
+
+                android:padding="5dp"
+                android:visibility="invisible"
+                android:adjustViewBounds="false"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:layout_alignParentEnd="false"
+                android:longClickable="false"
+                android:layout_alignParentBottom="false"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_gravity="center"
+                android:layout_above="@+id/gridLayout"
+                android:layout_alignParentStart="false"
+                android:contentDescription="@string/networks" />
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:columnCount="16"
+            android:rowCount="1"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentBottom="true"
+            android:alignmentMode="alignBounds"
+            android:importantForAccessibility="auto"
+            android:layoutMode="clipBounds"
+            android:longClickable="false"
+            android:orientation="horizontal"
+            android:useDefaultMargins="true"
+            android:id="@+id/gridLayout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/textView7"
+                android:layout_below="@+id/imageView"
+
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Agence-creation-sc.com"
+                android:id="@+id/textView8"
+                android:layout_row="0"
+                android:layout_column="15"
+                android:textStyle="italic"
+                android:textColor="#DEDEDE"
+                android:clickable="true"
+                android:background="@drawable/image_border"
+                android:singleLine="false"
+                android:autoText="false"
+                android:gravity="center_horizontal"
+                android:padding="2dp" />
+        </GridLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

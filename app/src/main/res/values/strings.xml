@@ -1,0 +1,54 @@
+<resources>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="title_section1">Stream Tickets</string>
+    <string name="title_section2">Mouvements</string>
+    <string name="title_section3">Géolocaliser</string>
+    <string name="title_section4">Historique</string>
+    <string name="title_section5">Accès RT</string>
+    <string name="title_section6">Astreintes</string>
+    <string name="title_section7">Mes Tickets</string>
+    <string name="title_section8">Upgrade App</string>
+    <string name="title_section9">Details</string>
+
+
+    <string name="action_example">Example action</string>
+    <string name="app_name">Site Spare Update</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Parametres</string>
+    <string name="geoloc">Geolocaliser</string>
+    <string name="Sitesinfos">Infos Sites</string>
+    <string name="Searchparts">Recherche cartes</string>
+    <string name="action_histo">Historique</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Yes</string>
+
+    <string name="Search">Search</string>
+    <string name="saved">Données sauvegardées avec succès!</string>
+    <string name="info">Effectuez votre recherche en cliquant sur la loupe en haut à droite.</string>
+    <string name="expanded">This is a test in real time %s</string>
+    <string name="collapsed">Nouvelle Inter  : %s </string>
+    <string name="show_notification">Show Notification</string>
+    <string name="custom_notification">Nouveau Ticket!</string>
+    <string name="title">This is a Title</string>
+    <string name="desc">This is a description</string>
+    <string name="collapsed_image">A single Android robot waving. Symbolises a collapsed
+        notification.
+    </string>
+    <string name="expanded_image">Two Androids on top of each other. Symbolises an expanded
+        notification.
+    </string>
+    <string name="networks">networks-technologies</string>
+    <string name="gwc">GWC</string>
+    <string name="sfr">SFR</string>
+    <string name="agence_creation_sc_com">Agence-creation-sc.com</string>
+    <string name="geolocaliser">GEOLOCALISER</string>
+    <string name="leprenom">%1$s</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

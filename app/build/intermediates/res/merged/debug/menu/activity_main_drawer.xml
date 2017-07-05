@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_web_asset_black_24dp"
+            android:title="Stream RT" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_sync_black_24dp"
+            android:title="Mouvements de cartes" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_vpn_lock_black_24dp"
+            android:title="Historique" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Accès RT" />
+    </group>
+
+    <item android:title="Pratique">
+        <menu>
+            <item
+                android:id="@+id/nav_geoloc"
+                android:icon="@drawable/ic_add_location_black_24dp"
+                android:title="Géolocaliser un site" />
+            <item
+                android:id="@+id/nav_mytickets"
+                android:icon="@drawable/ic_clear_all_black_24dp"
+                android:title="Mes tickets" />
+            <item
+                android:id="@+id/nav_tickets_flm"
+                android:icon="@drawable/ic_file_download_black_24dp"
+                android:title="Assignés FLM" />
+            <item
+                android:id="@+id/nav_details"
+                android:icon="@drawable/ic_web_black_24dp"
+                android:title="Demarrer / Fermer un ticket" />
+            <item
+                android:id="@+id/nav_astreintes"
+                android:icon="@drawable/ic_file_download_black_24dp"
+                android:title="Planning Astreintes" />
+            <item
+                android:id="@+id/nav_pointage"
+                android:icon="@drawable/ic_file_download_black_24dp"
+                android:title="Pointage" />
+        </menu>
+    </item>
+
+</menu>
