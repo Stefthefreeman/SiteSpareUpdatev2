@@ -1,8 +1,6 @@
 package com.agence_creation_sc.tools.sitespareupdatev2;
 
-/**
- * Created by Stéf on 10/10/2015.
- */
+
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -122,7 +120,7 @@ public class Geolocalisation extends Fragment {
                                 .replace("é","e").replace("è","e").replace("à","a").replace("ù","u")
                                 .replace(" ","-").replace(",","-").trim()+"&infos="+infos.getText().toString().replace("é","e").replace("è","e").replace("à","a").replace("ù","u")
                                 .replace(" ","-").replace(",","-").trim();
-                    //   Toast.makeText(getApplicationContext(), myurl, Toast.LENGTH_LONG).show();
+                      Toast.makeText(getActivity(), myurl, Toast.LENGTH_LONG).show();
                         URL conn = new URL(myurl);
                         HttpURLConnection ouch = (HttpURLConnection) conn.openConnection();
 

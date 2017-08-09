@@ -6,9 +6,12 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationManager;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
@@ -27,6 +30,15 @@ public class QrhsBarok extends AppCompatActivity {
     private String pseudo;
     private SharedPreference sharedPreference;
     Activity context = this;
+    Location location;
+    TextView snok;
+    TextView qrhs;
+    TextView numrt;
+    Button scansnok;
+    Button scanqrhs;
+    String numberrt;
+    LocationManager locationManager;
+    String PROVIDER;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,16 +48,21 @@ public class QrhsBarok extends AppCompatActivity {
         actionBar.setDisplayShowHomeEnabled(true);
         actionBar.setIcon(R.drawable.logontsmall);
         showInputDialogRTnum();
-        final TextView snok = (TextView) findViewById(R.id.textviewSNOK);
-        final TextView qrhs = (TextView) findViewById(R.id.textviewQRHS);
-        final TextView numrt = (TextView) findViewById(R.id.textViewRTNUM);
-        final Button scansnok = (Button) findViewById(R.id.buttonSNOK);
-        final Button scanqrhs = (Button) findViewById(R.id.buttonQRHS);
-        final  String numberrt = numrt.getText().toString();
-        final LocationManager locationManager;
-        final  String PROVIDER = LocationManager.GPS_PROVIDER;
+
+        snok = (TextView) findViewById(R.id.textviewSNOK);
+        qrhs = (TextView) findViewById(R.id.textviewQRHS);
+        numrt = (TextView) findViewById(R.id.textViewRTNUM);
+         scansnok = (Button) findViewById(R.id.buttonSNOK);
+        scanqrhs = (Button) findViewById(R.id.buttonQRHS);
+        numberrt = numrt.getText().toString();
+
+         PROVIDER = LocationManager.GPS_PROVIDER;
         locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
-        //  setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        if ( Build.VERSION.SDK_INT >= 23 &&
+                ContextCompat.checkSelfPermission( context, android.Manifest.permission.ACCESS_FINE_LOCATION ) != PackageManager.PERMISSION_GRANTED &&
+                ContextCompat.checkSelfPermission( context, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+             location = locationManager.getLastKnownLocation(PROVIDER);
+        }
         sharedPreference = new SharedPreference();
         pseudo = sharedPreference.getValue(context);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
@@ -91,7 +108,8 @@ public class QrhsBarok extends AppCompatActivity {
                 else {
 
                     try {
-                        final Location location = locationManager.getLastKnownLocation(PROVIDER);
+
+
                         ContactsBDD insertdatas = new ContactsBDD(QrhsBarok.this);
                         insertdatas.open();
                         String rtnumber[] = getTitle().toString().split(":");
@@ -233,7 +251,9 @@ public class QrhsBarok extends AppCompatActivity {
                             try {
                                 double latitude; // latitude
                                 double longitude;
-                                final Location location = locationManager.getLastKnownLocation(PROVIDER);
+
+
+
                                 ContactsBDD insertdatas = new ContactsBDD(QrhsBarok.this);
                                 String rtnumber[]=getTitle().toString().split(":");
                                 String ticket= rtnumber[1];
