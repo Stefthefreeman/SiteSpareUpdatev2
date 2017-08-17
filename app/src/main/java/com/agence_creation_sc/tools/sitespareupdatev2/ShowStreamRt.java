@@ -5,6 +5,7 @@ import android.app.Notification;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.app.TaskStackBuilder;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -66,6 +67,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import static android.view.View.GONE;
+import static android.view.View.VISIBLE;
+
 /**
  * Created by Stéf on 30/01/2016.
  */
@@ -126,7 +130,7 @@ public class ShowStreamRt extends Fragment {
        showrtstream = (TextView) setView.findViewById(R.id.showstreamrt);
         stream = (ListView) setView.findViewById(R.id.listView2);
         nt = (ImageView) setView.findViewById(R.id.imageView);
-        nt.setVisibility(nt.VISIBLE);
+        nt.setVisibility(VISIBLE);
         nt.startAnimation(bounce);
         showdate = (TextView) setView.findViewById(R.id.datedujour);
         showdate.startAnimation(bounce);
@@ -215,7 +219,7 @@ public class ShowStreamRt extends Fragment {
 
                 if (jsonObjectt.getString("nb").equals("0")){
                     welcome.setVisibility(welcome.INVISIBLE);
-                    showrtstream.setVisibility(showrtstream.VISIBLE);
+                    showrtstream.setVisibility(VISIBLE);
                         showrtstream.setText("RAS");
                         showrtstream.setBackgroundColor(Color.TRANSPARENT);
                         showrtstream.startAnimation(move);
@@ -225,13 +229,11 @@ public class ShowStreamRt extends Fragment {
                         showrtstream.setTextSize(38);
 //                        showrtstream.setTextColor(getResources().getColor(R.color.ras));
                         showrtstream.setBackgroundResource(R.drawable.siite_spare_update);
-                   /* if (sharedpreferences.getInt(Nb,0)>0) {
-                        editor.clear();
-                        editor.commit();
-                    }*/
+
 
                     }
                else {
+
                     ArrayList<Map<String, ?>> items = new ArrayList<Map<String, ?>>();
                 for (int i = 0; i < jsonArray.length(); i++) {
                     JSONObject jsonObject = jsonArray.getJSONObject(i);
@@ -295,14 +297,14 @@ public class ShowStreamRt extends Fragment {
                 } else {
                     pluriel = " Nouveau Ticket";
                 }
-                welcome.setVisibility(welcome.VISIBLE);
+                welcome.setVisibility(VISIBLE);
                     welcome.setText(stream.getAdapter().getCount() + pluriel);
                // showrtstream.setText(stream.getAdapter().getCount() + pluriel);
                 welcome.setBackgroundColor(Color.BLACK);
                LinearLayout.LayoutParams llp = new LinearLayout.LayoutParams(RadioGroup.LayoutParams.MATCH_PARENT, RadioGroup.LayoutParams.WRAP_CONTENT);
                 llp.setMargins(0, 0, 0, 0); // llp.setMargins(left, top, right, bottom);
                 showrtstream.setLayoutParams(llp);
-                showrtstream.setVisibility(showrtstream.INVISIBLE);
+                showrtstream.setVisibility(GONE);
 
 
 
@@ -313,7 +315,7 @@ public class ShowStreamRt extends Fragment {
                    }
                  SharedPreferences.Editor editor = sharedpreferences.edit();
                 editor.putInt(Nb, stream.getAdapter().getCount());
-                editor.commit();
+                editor.apply();
                 }
             } catch (JSONException e) {
                 Log.e("JSON", e.getLocalizedMessage());
@@ -448,75 +450,37 @@ public class ShowStreamRt extends Fragment {
         return false;
     }
     public void createNotification() {
-            Context context= getContext();
-        // BEGIN_INCLUDE(notificationCompat)
-        NotificationCompat.Builder builder = new NotificationCompat.Builder(getActivity());
-        // END_INCLUDE(notificationCompat)
+        NotificationCompat.Builder mBuilder =
+                new NotificationCompat.Builder(getActivity())
+                        .setSmallIcon(R.drawable.ntnotif)
+                        .setContentTitle("My notification")
+                        .setContentText("Hello World!");
+// Creates an explicit intent for an Activity in your app
+        Intent resultIntent = new Intent(getActivity(), ShowStreamRt.class);
 
-        // BEGIN_INCLUDE(intent)
-        //Create Intent to launch this Activity again if the notification is clicked.
-        Intent i = new Intent( getActivity(),MainActivity.class);
-        i.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-        PendingIntent intent = PendingIntent.getActivity(getActivity(), 0, i,
-                PendingIntent.FLAG_UPDATE_CURRENT);
-        builder.setContentIntent(intent);
-        // END_INCLUDE(intent)
+// The stack builder object will contain an artificial back stack for the
+// started Activity.
+// This ensures that navigating backward from the Activity leads out of
+// your application to the Home screen.
+        TaskStackBuilder stackBuilder = TaskStackBuilder.create(getActivity());
+// Adds the back stack for the Intent (but not the Intent itself)
+        stackBuilder.addParentStack(ShowStreamRt.class);
+// Adds the Intent that starts the Activity to the top of the stack
+        stackBuilder.addNextIntent(resultIntent);
+        PendingIntent resultPendingIntent =
+                stackBuilder.getPendingIntent(
+                        0,
+                        PendingIntent.FLAG_UPDATE_CURRENT
+                );
+        mBuilder.setContentIntent(resultPendingIntent);
+        NotificationManager mNotificationManager =
+                (NotificationManager) getActivity().getSystemService(Context.NOTIFICATION_SERVICE);
 
-        // BEGIN_INCLUDE(ticker)
-        // Sets the ticker text
-        builder.setTicker(getResources().getString(R.string.custom_notification));
 
-
-
-        // Sets the small icon for the ticker
-        builder.setSmallIcon(R.drawable.flag);
-        // END_INCLUDE(ticker)
-
-        // BEGIN_INCLUDE(buildNotification)
-        // Cancel the notification when clicked
-        builder.setAutoCancel(true);
-
-        // Build the notification
-        Notification notification = builder.build();
-        // END_INCLUDE(buildNotification)
-        // notification.sound = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.notifysnd);
-        notification.defaults =Notification.DEFAULT_SOUND | Notification.DEFAULT_LIGHTS | Notification.DEFAULT_VIBRATE;
-        // BEGIN_INCLUDE(customLayout)
-        // Inflate the notification layout as RemoteViews
-        RemoteViews contentView = new RemoteViews(context.getPackageName(), R.layout.notification);
-        // showrtstream = (TextView) findViewById(R.id.streamrt);
-        // Set text on a TextView in the RemoteViews programmatically.
-        final String time = DateFormat.getTimeInstance().format(new Date()).toString();
-        text = getResources().getString(R.string.collapsed, time);
-        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.KITKAT) { contentView.setTextColor(R.id.textView,0xffa3b8fe);
-            contentView.setTextViewText(R.id.textView, text);}
-        else {
-            contentView.setTextViewText(R.id.textView, text);
-        }
-        /* Workaround: Need to set the content view here directly on the notification.
-         * NotificationCompatBuilder contains a bug that prevents this from working on platform
-         * versions HoneyComb.
-         * See https://code.google.com/p/android/issues/detail?id=30495
-         */
-        notification.contentView = contentView;
-        notification.sound = Uri.parse("file:///sdcard/Notifications/Popipopipopi.mp3");
-        // Add a big content view to the notification if supported.
-        // Support for expanded notifications was added in API level 16.
-        // (The normal contentView is shown when the notification is collapsed, when expanded the
-        // big content view set here is displayed.)
-       /* if (Build.VERSION.SDK_INT >= 23) {
-            // Inflate and set the layout for the expanded notification view
-            RemoteViews expandedView =
-                    new RemoteViews(getActivity(), R.layout.notification_expanded);
-            notification.bigContentView = expandedView;
-        }*/
-        // END_INCLUDE(customLayout)
-
-        // START_INCLUDE(notify)
-        // Use the NotificationManager to show the notification
-    //    NotificationManager nm = (NotificationManager)getActivity().getSystemService(Context.NOTIFICATION_SERVICE);
-      //  nm.notify(0, notification);
-        // END_INCLUDE(notify)
+// mNotificationId is a unique integer your app uses to identify the
+// notification. For example, to cancel the notification, you can pass its ID
+// number to NotificationManager.cancel().
+        mNotificationManager.notify(1, mBuilder.build());
 
     }
 }
