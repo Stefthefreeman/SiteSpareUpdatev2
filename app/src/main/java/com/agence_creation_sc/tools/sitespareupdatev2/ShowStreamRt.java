@@ -62,9 +62,11 @@ import java.net.URL;
 import java.text.DateFormat;
 import java.text.MessageFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 
 import static android.view.View.GONE;
@@ -162,35 +164,6 @@ public class ShowStreamRt extends Fragment {
         });
 
 
-     /*  new Thread(new Runnable() {
-            public void run() {
-                while (i !=0) {
-                    i -= 1;
-                    // Update the progress bar and display the
-                    //current value in the text view
-
-                    myHandler.post(new Runnable() {
-                        public void run() {
-
-                            showrtstream.setText("Affichage RT dans " + i +" s.");
-                            LinearLayout.LayoutParams llp = new LinearLayout.LayoutParams(RadioGroup.LayoutParams.MATCH_PARENT, RadioGroup.LayoutParams.WRAP_CONTENT);
-                            llp.setMargins(0, 160, 0, 0); // llp.setMargins(left, top, right, bottom);
-                            showrtstream.setLayoutParams(llp);
-                            showrtstream.setTextSize(22);
-
-                        }
-                    });
-                    try {
-                        // Sleep for 200 milliseconds.
-                        //Just to display the progress slowly
-                        Thread.sleep(1000);
-
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                }
-            }
-        }).start();*/
 
         return setView;
 
@@ -227,9 +200,11 @@ public class ShowStreamRt extends Fragment {
                         llp.setMargins(0, 1, 0, 0); // llp.setMargins(left, top, right, bottom);
                         showrtstream.setLayoutParams(llp);
                         showrtstream.setTextSize(38);
-//                        showrtstream.setTextColor(getResources().getColor(R.color.ras));
+//                      showrtstream.setTextColor(getResources().getColor(R.color.ras));
                         showrtstream.setBackgroundResource(R.drawable.siite_spare_update);
-
+                        SharedPreferences.Editor editor = sharedpreferences.edit();
+                        editor.putInt(Nb, 0);
+                        editor.apply();
 
                     }
                else {
@@ -311,11 +286,13 @@ public class ShowStreamRt extends Fragment {
 
 
                 if(sharedpreferences.getInt(Nb,0) != stream.getAdapter().getCount() && stream.getAdapter().getCount() != 0)
-                {//createNotification();
+                {
+                    createNotification(true);
                    }
                  SharedPreferences.Editor editor = sharedpreferences.edit();
-                editor.putInt(Nb, stream.getAdapter().getCount());
-                editor.apply();
+                 editor.putInt(Nb, stream.getAdapter().getCount());
+                 editor.apply();
+                    //Toast.makeText(getActivity(),sharedpreferences.getInt(Nb,0),Toast.LENGTH_LONG).show();
                 }
             } catch (JSONException e) {
                 Log.e("JSON", e.getLocalizedMessage());
@@ -449,38 +426,54 @@ public class ShowStreamRt extends Fragment {
 
         return false;
     }
-    public void createNotification() {
-        NotificationCompat.Builder mBuilder =
-                new NotificationCompat.Builder(getActivity())
-                        .setSmallIcon(R.drawable.ntnotif)
-                        .setContentTitle("My notification")
-                        .setContentText("Hello World!");
+    public void createNotification(boolean val) {
+
+
+            DateFormat df = DateFormat.getDateInstance(DateFormat.LONG, Locale.FRANCE);
+            Calendar cal = Calendar.getInstance();
+
+            System.out.println("Today's date= " + cal.getTime());
+//subtracting a day
+            cal.add(Calendar.DATE, -1);
+            System.out.println("Yesterday's date= " + cal.getTime());
+            NotificationCompat.Builder mBuilder =
+                    new NotificationCompat.Builder(getActivity())
+                            .setSmallIcon(R.drawable.flag)
+                            .setContentTitle(stream.getAdapter().getCount() + pluriel)
+                            .setContentText(" " + cal.getTime())
+                            .setAutoCancel(true);
 // Creates an explicit intent for an Activity in your app
-        Intent resultIntent = new Intent(getActivity(), ShowStreamRt.class);
+            Intent resultIntent = new Intent(getActivity(), ShowStreamRt.class);
 
 // The stack builder object will contain an artificial back stack for the
 // started Activity.
 // This ensures that navigating backward from the Activity leads out of
 // your application to the Home screen.
-        TaskStackBuilder stackBuilder = TaskStackBuilder.create(getActivity());
+            TaskStackBuilder stackBuilder = TaskStackBuilder.create(getActivity());
 // Adds the back stack for the Intent (but not the Intent itself)
-        stackBuilder.addParentStack(ShowStreamRt.class);
+            stackBuilder.addParentStack(getActivity());
 // Adds the Intent that starts the Activity to the top of the stack
-        stackBuilder.addNextIntent(resultIntent);
-        PendingIntent resultPendingIntent =
-                stackBuilder.getPendingIntent(
-                        0,
-                        PendingIntent.FLAG_UPDATE_CURRENT
-                );
-        mBuilder.setContentIntent(resultPendingIntent);
-        NotificationManager mNotificationManager =
-                (NotificationManager) getActivity().getSystemService(Context.NOTIFICATION_SERVICE);
+            stackBuilder.addNextIntent(resultIntent);
+            PendingIntent resultPendingIntent =
+                    stackBuilder.getPendingIntent(
+                            0,
+                            PendingIntent.FLAG_UPDATE_CURRENT
+                    );
+            mBuilder.setContentIntent(resultPendingIntent);
+            NotificationManager mNotificationManager =
+                    (NotificationManager) getActivity().getSystemService(Context.NOTIFICATION_SERVICE);
 
 
 // mNotificationId is a unique integer your app uses to identify the
 // notification. For example, to cancel the notification, you can pass its ID
 // number to NotificationManager.cancel().
-        mNotificationManager.notify(1, mBuilder.build());
+            Notification note = mBuilder.build();
+            note.defaults |= Notification.DEFAULT_VIBRATE;
+            note.defaults |= Notification.DEFAULT_SOUND;
+            mNotificationManager.notify(1, note);
+
 
     }
+
+
 }

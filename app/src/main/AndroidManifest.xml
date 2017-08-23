@@ -19,6 +19,13 @@
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-feature android:name="android.hardware.location.gps" />
+    <receiver android:name="ExampleAppWidgetProvider" >
+        <intent-filter>
+            <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+        </intent-filter>
+        <meta-data android:name="android.appwidget.provider"
+            android:resource="@xml/example_appwidget_info" />
+    </receiver>
 
     <application
         android:allowBackup="true"
@@ -26,11 +33,16 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat">
-        <provider
-            android:name=".MySuggestionProvider"
-            android:authorities="com.agence_creation_sc.tools.sitespareupdatev2.MySuggestionProvider"
-            android:enabled="true"
-            android:exported="true" />
+        <receiver android:name="MyWidgetProvider" >
+            <intent-filter >
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
 
         <activity
             android:name=".Splash"

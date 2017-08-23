@@ -76,6 +76,10 @@
         "source": "C:\\Users\\Stef\\.android\\build-cache\\13ec8052e4985eefa91a6523202d5d47c3ecc741\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\myshape.xml",
+        "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\drawable\\myshape.xml"
+    },
+    {
         "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_web_white_36dp.png",
         "source": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\src\\main\\res\\drawable\\ic_web_white_36dp.png"
     },

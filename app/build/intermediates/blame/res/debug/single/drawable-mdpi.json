@@ -56,12 +56,12 @@
         "source": "C:\\Users\\Stef\\.android\\build-cache\\012035c3938c8fbc2d714fc64dd284460e79267a\\output\\res\\drawable-mdpi\\common_signin_btn_text_normal_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_signin_btn_icon_focus_light.9.png",
-        "source": "C:\\Users\\Stef\\.android\\build-cache\\012035c3938c8fbc2d714fc64dd284460e79267a\\output\\res\\drawable-mdpi\\common_signin_btn_icon_focus_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\powered_by_google_dark.png",
         "source": "C:\\Users\\Stef\\.android\\build-cache\\03800c3e1eb8b62abf1eeea881e334c0459a40ab\\output\\res\\drawable-mdpi\\powered_by_google_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_signin_btn_icon_focus_light.9.png",
+        "source": "C:\\Users\\Stef\\.android\\build-cache\\012035c3938c8fbc2d714fc64dd284460e79267a\\output\\res\\drawable-mdpi\\common_signin_btn_icon_focus_light.9.png"
     },
     {
         "merged": "C:\\Users\\Stef\\AndroidStudioProjects\\SiteSpareUpdatev2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_signin_btn_text_disabled_light.9.png",
